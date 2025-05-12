@@ -28,7 +28,7 @@ class Student(models.Model):
 
     def get_absolute_url(self):
         return reverse("student_detail", args=[str(self.student_id)])
-class StudentDetails(models.Model):
+    class StudentDetails(models.Model):
     pass
 
 
