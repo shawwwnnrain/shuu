@@ -1,5 +1,5 @@
 # How to Start Backend 
-  Table of Contents
+  ``` Explanation of each Component
 
 from django.db import models
 from django.urls import reverse
